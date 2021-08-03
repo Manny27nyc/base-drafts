@@ -4,8 +4,8 @@
 
 QUIC                                                      M. Bishop, Ed.
 Internet-Draft                                                    Akamai
-Intended status: Standards Track                            30 July 2021
-Expires: 31 January 2022
+Intended status: Standards Track                           3 August 2021
+Expires: 4 February 2022
 
 
              Hypertext Transfer Protocol Version 3 (HTTP/3)
@@ -35,7 +35,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 31 January 2022.
+   This Internet-Draft will expire on 4 February 2022.
 
 Copyright Notice
 
@@ -1257,7 +1257,7 @@ Table of Contents
 
    As certain stream types can affect connection state, a recipient
    SHOULD NOT discard data from incoming unidirectional streams prior to
-   reading the type byte.
+   reading the stream type.
 
    Implementations MAY send stream types before knowing whether the peer
    supports them.  However, stream types that could modify the state or
@@ -2535,14 +2535,14 @@ Table of Contents
 
    [QPACK]    Krasic, C., Bishop, M., and A. Frindell, Ed., "QPACK:
               Header Compression for HTTP over QUIC", Work in Progress,
-              Internet-Draft, draft-ietf-quic-qpack, 30 July 2021,
+              Internet-Draft, draft-ietf-quic-qpack, 3 August 2021,
               <https://datatracker.ietf.org/doc/html/draft-ietf-quic-
               qpack>.
 
    [QUIC-TRANSPORT]
               Iyengar, J., Ed. and M. Thomson, Ed., "QUIC: A UDP-Based
               Multiplexed and Secure Transport", RFC 9000,
-              DOI 10.17487/RFC9000, 30 July 2021,
+              DOI 10.17487/RFC9000, 3 August 2021,
               <https://datatracker.ietf.org/doc/html/rfc9000>.
 
    [RFC0793]  Postel, J., "Transmission Control Protocol", STD 7,
